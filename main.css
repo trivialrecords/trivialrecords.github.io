@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+html * {
+  box-sizing: border-box;
+  margin: 0;
+padding: 0;
+}
+
+body {
+	background-image: url("trback.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	font-size: 100%;
+}
+
+header {
+  position: fixed;
+  padding: 2.5em;
+  width: 100%;
+  z-index: 100000;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  position: relative;
+  display: block;
+  float: left;
+  font-family: 'Helvetica Neue';
+  color: #fff;
+  -webkit-transition: color .1s;
+  transition: color .1s;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: 'Helvetica Neue';
+  color: #fff;
+  top: 30%;
+  width: 100%;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: 'Helvetica Neue';
+	position: relative;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color .1s;
+  transition: color .1s;
+}
+
+p {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: 'Helvetica Neue Light Italic', 'Helvetica Neue Italic', 'sans-serif';
+  color: #fff;
+  text-align:center;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+a h1:hover {
+  outline: none;
+  text-decoration: none!important;
+  color: transparent;
+}
+
+a h3:hover {
+  outline: none;
+  text-decoration: none!important;
+  color: transparent;
+}
+
+content {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+	text-align:center;
+}
+
+.site-nav {
+  position: relative;
+  float: right;
+  z-index: 400;
+  display: block !important;
+  width: 80%;
+}
+.site-nav ul {
+ display: block;
+list-style-type: none;
+  float: right;
+}
+.site-nav ul li {
+  display: inline-block;
+}
+
+.site-nav ul li a {
+  font-size: 1.25em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: .25em;
+  -webkit-transition: color .1s;
+  transition: color .1s;
+  font-family: 'Helvetica Neue Light Italic', 'Helvetica Neue Italic', 'sans-serif';
+}
+
+.site-nav ul li a:hover {
+  outline: none;
+  color: transparent;
+}
+
+footer {
+	position: fixed;
+bottom: 1em;
+  width: 100%;
+  z-index: 100000;
+}
